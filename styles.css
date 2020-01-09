@@ -1,0 +1,61 @@
+body {
+    background: url("light-bulb-1920.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.tl-info {
+    margin-top: 20px;
+    background-color:white;
+    opacity: .75;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.icon-line {
+    margin-top: 20px;
+}
+
+i {
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.desc {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    body {
+        background-size: contain;
+    }
+
+    .tl-info {
+        opacity: .50;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .tl-info {
+        margin-top: 20%;
+    }
+}
