@@ -22,11 +22,6 @@ h1 {
     font-weight: bold;
 }
 
-h3 {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
 ul {
     /* Remove list-style and padding-left if you want bullets */
     list-style: none;
