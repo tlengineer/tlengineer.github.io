@@ -1,5 +1,5 @@
 body {
-    background: url("light-bulb-1920.jpg");
+    background: url("light-bulb-v3.jpg");
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 .tl-info {
     margin-top: 20px;
     background-color:white;
-    opacity: .75;
+    opacity: .8;
     border-radius: 10px;
     padding: 20px;
 }
@@ -20,6 +20,15 @@ body {
 h1 {
     font-size: 40px;
     font-weight: bold;
+}
+
+ul {
+    /* Remove list-style and padding-left if you want bullets */
+    list-style: none;
+    padding-left: 0px;
+
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 .icon-line {
@@ -40,17 +49,6 @@ i {
 a {
     color: black;
     text-decoration: underline;
-}
-
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-    body {
-        background-size: contain;
-    }
-
-    .tl-info {
-        opacity: .50;
-    }
 }
 
 /* Large devices (desktops, 992px and up) */
